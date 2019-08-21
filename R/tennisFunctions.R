@@ -32,9 +32,10 @@ pm_tennis_fetchDataset <- function(myyear,
       'y2013' = 'http://www.tennis-data.co.uk/2013w/2013.zip',
       'y2014' = 'http://www.tennis-data.co.uk/2014w/2014.zip',
       'y2015' = 'http://www.tennis-data.co.uk/2015w/2015.zip',
-      'y2016' = 'http://www.tennis-data.co.uk/2016w/2016zip',
+      'y2016' = 'http://www.tennis-data.co.uk/2016w/2016.zip',
       'y2017' = 'http://www.tennis-data.co.uk/2017w/2017zip',
-      'y2018' = 'http://www.tennis-data.co.uk/2018w/2018zip'
+      'y2018' = 'http://www.tennis-data.co.uk/2018w/2018zip',
+      'y2019' = 'http://www.tennis-data.co.uk/2019w/2019zip'
     )
   } else if (competition == 'ATP'){
     availableFiles <- list(
@@ -55,7 +56,8 @@ pm_tennis_fetchDataset <- function(myyear,
       'y2015' = 'http://www.tennis-data.co.uk/2015/2015.zip',
       'y2016' = 'http://www.tennis-data.co.uk/2016/2016.zip',
       'y2017' = 'http://www.tennis-data.co.uk/2017/2017.zip',
-      'y2018' = 'http://www.tennis-data.co.uk/2018/2018.zip'
+      'y2018' = 'http://www.tennis-data.co.uk/2018/2018.zip',
+      'y2019' = 'http://www.tennis-data.co.uk/2019/2019.zip'
     )
   }
 
