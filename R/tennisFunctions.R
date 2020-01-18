@@ -187,7 +187,7 @@ pm_tennis_fetchDataset <- function(myyear,
 #' @examples
 pm_tennis_fetchAllDatasets <- function(competition = 'WTA'){
 
-  myyears <- seq(from=2007,to=2018,by=1)
+  myyears <- seq(from=2007,to=2019,by=1)
 
   allTheData <- myyears %>%
     purrr::map(~ pm_tennis_fetchDataset(., competition = competition)) %>%
