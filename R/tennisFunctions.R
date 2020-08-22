@@ -35,7 +35,8 @@ pm_tennis_fetchDataset <- function(myyear,
       'y2016' = 'http://www.tennis-data.co.uk/2016w/2016.zip',
       'y2017' = 'http://www.tennis-data.co.uk/2017w/2017.zip',
       'y2018' = 'http://www.tennis-data.co.uk/2018w/2018.zip',
-      'y2019' = 'http://www.tennis-data.co.uk/2019w/2019.zip'
+      'y2019' = 'http://www.tennis-data.co.uk/2019w/2019.zip',
+      'y2020' = 'http://www.tennis-data.co.uk/2020w/2020.zip'
     )
   } else if (competition == 'ATP'){
     availableFiles <- list(
@@ -57,7 +58,8 @@ pm_tennis_fetchDataset <- function(myyear,
       'y2016' = 'http://www.tennis-data.co.uk/2016/2016.zip',
       'y2017' = 'http://www.tennis-data.co.uk/2017/2017.zip',
       'y2018' = 'http://www.tennis-data.co.uk/2018/2018.zip',
-      'y2019' = 'http://www.tennis-data.co.uk/2019/2019.zip'
+      'y2019' = 'http://www.tennis-data.co.uk/2019/2019.zip',
+      'y2020' = 'http://www.tennis-data.co.uk/2020/2020.zip'
     )
   }
 
